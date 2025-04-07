@@ -30,7 +30,7 @@ function PersonalInfo() {
       <button style={styles.backButton} onClick={() => window.history.back()}>&lt;</button>
 
       {/* Page title for personal information */}
-      <h2 style={styles.title}>Personal information</h2>
+      <h2 style={styles.title}>Register </h2>
 
       {/* Loop through formData keys to dynamically generate input fields */}
       {Object.keys(formData).map((field) => (

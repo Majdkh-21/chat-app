@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function AddMember() {
-  // State to store form data for adding a new member
+  // State to store form data for update member
   const [formData, setFormData] = useState({
     name: '',          // Member's name
     department: '',    // Member's department
@@ -18,8 +18,8 @@ function AddMember() {
 
   // Function to handle saving the member's data
   const handleSave = () => {
-    console.log("Member added successfully:", formData);
-    alert("Member added successfully!");
+    console.log("Member update successfully:", formData);
+    alert("Member update successfully!");
   };
 
   return (
